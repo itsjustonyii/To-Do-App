@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background: rgb(38, 95, 95);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-main {
+  background-color: #12343b;
+  height: 600px;
+  min-width: 450px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.header h1 {
+  color: #fff;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.task-input {
+  outline: none;
+  width: 260px;
+  padding: 15px;
+  margin-right: 25px;
+  font-size: 20px;
+  color: #ccc;
+  background-color: #000;
+  border: 1px solid teal;
+  border-radius: 10px;
+}
+
+.button-add {
+  width: 70px;
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: teal;
+  cursor: pointer;
+}
+
+.button-add:hover {
+  background-color: rgb(87, 161, 161);
+  transition: .3s;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 0;
+  border: none;
+  background-color: teal;
+  border-radius: 10px;
+  padding: 10px 17px;
+  max-height: 30px;
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+ .button-delete {
+  background-color: goldenrod;
+  color: white;
+  margin-left: 20px;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-delete:hover {
+  background-color: rgb(148, 123, 61);
+  transition: 3s;
+}
+
+.button-complete {
+  width: 40px;
+  cursor: pointer;
+}
+
+
+.list {
+width: 300px;
+margin-bottom: 30px;
+;
+}
